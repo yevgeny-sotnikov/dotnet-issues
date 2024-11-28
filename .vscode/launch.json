@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET macOSApp1 Debug",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build macOSApp1.csproj",
+            "program": "${workspaceFolder}/macOSApp1/bin/Debug/net9.0-macos/osx-x64/macOSApp1.app/Contents/MacOS/macOSApp1",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+        }
+    ]
+}

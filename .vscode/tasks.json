@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dotnet",
+			"task": "build ${workspaceFolder}/macOSApp1/macOSApp1.csproj",
+			"file": "${workspaceFolder}/macOSApp1/macOSApp1.csproj",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "build macOSApp1.csproj"
+		}
+	]
+}
